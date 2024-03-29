@@ -1,0 +1,83 @@
+/* Restablece los márgenes y rellenos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Esto asegura que el padding no afecte el ancho total */
+}
+
+
+body {
+    background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+    /* Degradado de gris a gris claro */
+    font-family: 'Arial', sans-serif;
+    /* Fuente moderna y legible */
+    color: #333;
+    /* Texto en color oscuro para contraste */
+}
+
+
+
+/* Estilos del contenedor del menú */
+.contenedor-negro {
+    width: 100%;
+    /* Esto hace que el contenedor ocupe todo el ancho de la pantalla */
+    background-color: rgb(7, 7, 7)c0c;
+    /* Color de fondo oscuro para contraste */
+    color: #fff;
+    /* Texto en color blanco para legibilidad */
+    /* Añade aquí el resto de tus estilos para el contenedor */
+}
+
+/* Estilos del encabezado */
+.header {
+    width: 100%;
+    /* Esto hace que el encabezado ocupe todo el ancho de la pantalla */
+    /* Añade aquí el resto de tus estilos para el encabezado */
+}
+
+
+/* Estilos del encabezado */
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos de la navegación */
+#divNav nav {
+    text-align: center;
+    /* Centra la navegación */
+}
+
+#divNav nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* Elimina márgenes por defecto */
+}
+
+#divNav nav ul li {
+    display: inline-block;
+    /* Elementos del menú en línea y bloque */
+    margin: 0 20px;
+    /* Aumenta el espaciado horizontal entre elementos del menú */
+    font-size: 1.2em;
+    /* Aumenta el tamaño de la fuente para un menú más grande */
+}
+
+#divNav nav ul li a {
+    color: #ff8c00;
+    /* Color cálido para los enlaces */
+    text-decoration: none;
+    padding: 10px 15px;
+    /* Aumenta el relleno para hacer los enlaces más grandes */
+    transition: background-color 0.3s;
+    /* Transición suave para el efecto de hover */
+    border-radius: 5px;
+    /* Bordes redondeados para un aspecto moderno */
+}
+
+#divNav nav ul li a:hover {
+    background-color: #ff4500;
+    /* Color de fondo al pasar el ratón */
+}

@@ -1,0 +1,74 @@
+/* Estilos globales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Añadido para evitar problemas de dimensiones */
+}
+
+/* Estilos del cuerpo */
+body {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    margin: 0;
+    padding-top: 75px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilos para la barra de navegación */
+header#navBar {
+    background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+header#navBar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header#navBar ul li {
+    padding: 10px 20px;
+}
+
+header#navBar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header#navBar ul li a:hover {
+    color: #dddddd;
+}
+
+/* Estilos para el contenedor de la imagen de fondo */
+.imagen-de-fondo {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Estilos para la imagen dentro del contenedor */
+.imagen-de-fondo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para la sección de noticias */
+.seccion-noticias {
+    background: linear-gradient(180deg, #0f0c29, #302b63, #24243e);
+    color: #ffffff;
+    padding: 40px;
+    /* Corregido el valor de padding */
+}

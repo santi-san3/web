@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Club de Robótica UTN-FRN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+
+<body>
+    <header id="navBar">
+        <div id="divNav">
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Noticias</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Div contenedor para la imagen -->
+    <div class="imagen-de-fondo">
+        <img src="./img/02.png" alt="Descripción de la imagen">
+    </div>
+
+
+    <!-- Sección de noticias de robótica -->
+    <section class="noticias-robotica">
+        <h2>Últimas Noticias del club</h2>
+        <!-- Noticia individual -->
+        <article class="noticia">
+            <h3>Se lanza el nuevo cohete UTN-FRN!</h3>
+            <p>jaja te la cresiste</p>
+            <a href="enlace-a-la-noticia-completa.html">Leer más</a>
+            <img src="./img/space.jpg" alt="Descripción de la imagen" class="imagen-noticia">
+        </article>
+        <!-- Otra noticia individual -->
+        <article class="noticia">
+            <h3>Convenio entre el club de robótica UTN-FR y funcación YPF</h3>
+            <p>vamooo</p>
+            <a href="enlace-a-la-noticia-completa.html">Leer más</a>
+            <img src="./img/YPF.png" alt="Descripción de la imagen" class="imagen-noticia">
+        </article>
+        <article class="noticia">
+            <h3>La asambea del club de robótica UTN-FRN ya tiene sus nuevos representantes.</h3>
+            <p>Aguante el pan con manteca.</p>
+            <a href="enlace-a-la-noticia-completa.html">Leer más</a>
+            <img src="./img/ej.jpg" alt="Descripción de la imagen" class="imagen-noticia">
+        </article>
+        <!-- Puedes seguir añadiendo más artículos de noticias aquí -->
+    </section>
+
+    <!-- Sección de inscripción al club -->
+    <section class="inscripcion-club">
+        <div class="contenedor-inscripcion">
+            <h2>¿Te interesa unirte al club de robótica?</h2>
+            <p>Completa el formulario para inscribirte y ser parte de nuestra comunidad.</p>
+            <form
+                action="https://docs.google.com/forms/d/e/1FAIpQLSejsFifbAa4WJ_kU_EfLKvH2VQJPRBaYfThsrKdoPo4KJkKmQ/viewform?usp=pp_url&entry.765519209=Opci%C3%B3n+1"
+                method="post">
+                <input type="text" name="nombre" placeholder="Nombre completo" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <input type="submit" value="Inscribirse">
+            </form>
+        </div>
+    </section>
+
+
+    <script>
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (currentScrollPos > 100) { // Ajusta este valor según necesites
+                document.getElementById("navBar").style.top = "-75px"; // Ajusta este valor al tamaño de tu nav
+            } else {
+                document.getElementById("navBar").style.top = "0";
+            }
+        };
+    </script>
+
+</body>
+
+</html>
